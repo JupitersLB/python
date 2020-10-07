@@ -1,0 +1,14 @@
+<div class="banner">
+  <h1>Update an entry</h1>
+<form action="/updated" method="post">
+  <div>
+    <label for="date">Date</label>
+    <textarea id="date" name="date" rows="1" cols="60" placeholder="<%= @updated_element.date_input %>"></textarea>
+    <br>
+    <label for="entry">Entry</label>
+    <textarea id="entry" name="entry" rows="3" cols="60" placeholder="<%= @updated_element.entry %>"></textarea>
+    <br>
+    <input type="submit" value="Add to journal">
+  </div>
+</form>
+</div>

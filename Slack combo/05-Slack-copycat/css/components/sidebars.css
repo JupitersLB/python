@@ -1,0 +1,52 @@
+.dark-bar {
+  background-color: #261C25;
+  width: 80px;
+  height: 100vh;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.dark-bar h3 {
+  color: rgb(103,95,102);
+  width: auto;
+}
+
+.dark-bar h3:hover {
+  color: white;
+}
+
+.active {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.purple-bar {
+  background-color: #4B3949;
+  width: 200px;
+  height: 100vh;
+}
+
+.purple-bar h3 {
+  color: white;
+}
+
+.purple-bar p {
+  color: rgb(164,155,163);
+  margin-bottom: 0;
+}
+
+#sidebar-title {
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.chat-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 16px;
+}

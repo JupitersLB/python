@@ -1,0 +1,21 @@
+.message {
+  list-style-type: none;
+}
+
+.message img {
+  border-radius: 8px;
+  height: 40px;
+  width: 40px;
+}
+
+.message-content {
+  padding-left: 16px;
+}
+
+
+
+#name {
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 0;
+}

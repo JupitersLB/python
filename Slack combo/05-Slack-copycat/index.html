@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slack prototype</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- TODO: Slack copycat markup -->
+    <div class="d-flex my-container">
+      <div class="dark-bar">
+        <h3 class="active">LW</h3>
+        <h3>SL</h3>
+      </div>
+      <div class="purple-bar p-3">
+        <h3 class="mb-2">Le Wagon</h3>
+        <div class="person">
+          <div class="online-badge"></div>
+          <p>arthur-littm</p>
+        </div>
+        <div class="chat-section-header">
+          <p id="sidebar-title">Channels</p>
+          <i class="fas fa-plus"></i>
+        </div>
+
+        <p>general</p>
+        <p>help</p>
+        <p>design</p>
+        <p>friday-drinks</p>
+        <p>climbing</p>
+        <div class="chat-section-header">
+          <p id="sidebar-title">Direct Messages</p>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="names">
+        <p></p>
+        </div>
+      </div>
+      <div class="chat-container">
+        <h3>
+          <i class="fab fa-slack-hash"></i>
+          design</h3>
+        <div class="chat-box border border-left-0">
+          <ul class="message">
+            <li class ="message-content">
+            </li>
+          </ul>
+        </div>
+        <form action="#" id="comment-form">
+          <div class="form-group">
+            <label for="your-message">Your comment</label>
+            <textarea type="text" name="content" id="your-message" class="form-control" placeholder="Here is my message.."></textarea>
+          </div>
+          <div class="form-group">
+            <label for="your-name">From</label>
+            <input type="text" name="content" id="your-name" class="form-control" placeholder="Bob">
+          </div>
+          <input type="submit" value="Send" class="btn btn-primary">
+          <button class="btn btn-danger" id="refresh">Refresh Chat</button>
+        </form>
+
+      </div>
+
+    </div>
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>
